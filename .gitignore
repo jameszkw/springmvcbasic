@@ -5,4 +5,6 @@
 .gradle
 build-eclipse
 build
-/target/
+target/*
+.idea
+SpringMVCBasic.iml

@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/demo")
 public class DemoController {
 	@RequestMapping("/helloworld")
+	@ResponseBody
 	public String helloWorld() {
 		System.out.println("helloWorld()");
 		return "helloWorld()";
